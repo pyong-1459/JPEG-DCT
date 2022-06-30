@@ -8,6 +8,16 @@ jpeg.py에서 돌아감
 ### jpeg.py
 #### code flow
 DCT -> Quantization -> Dequantization -> IDCT -> image plot
+
+Test four cases of DCT - Normal DCT, Verilog-like DCT, Verilog 1d DCT output, Verilog 2d DCT output
+
+4가지 DCT를 수행함 - 일반 DCT, python에서 돌아가는 Verilog-like DCT, 베릴로그 1d DCT 출력, 베릴로그 2d DCT 출력
+
+##### Each PSNR of DCT results:
+40.30, 34.00, 34.17, 34.27
+
+Quantization으로 손실 압축 구현
+
 ### fastdct8.py
 https://www.nayuki.io/page/fast-discrete-cosine-transform-algorithms
 
