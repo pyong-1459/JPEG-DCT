@@ -29,7 +29,7 @@ Input data text file generation included at line 27~41. That used at Verilog sim
 
 27~41줄에 베릴로그를 위한 입력 벡터 파일을 만드는 코드 포함됨. 주석처리되어 있음.
 
-#### Added code:
+#### Added code
 Transform like verilog(integer implementation) added. 
 
 DCT를 정수 연산으로 구현한 Transform like Verilog가 추가됨
