@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module tp_dct_top();
+module tb_dct_top();
 
 reg clk, rst, enb;
 reg [7:0] data_in;
